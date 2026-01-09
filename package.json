@@ -1,5 +1,5 @@
 {
-  "name": "knowindia",
+  "name": "@aryanjsx/knowindia",
   "version": "1.2.0",
   "description": "A structured dataset and utility package providing Indian states, union territories, capitals, regions, and metadata for web and backend applications.",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kuntalojha/knowindia.git"
+    "url": "git+https://github.com/aryanjsx/know-india.git"
   },
   "bugs": {
-    "url": "https://github.com/kuntalojha/knowindia/issues"
+    "url": "https://github.com/aryanjsx/know-india/issues"
   },
-  "homepage": "https://github.com/kuntalojha/knowindia#readme",
+  "homepage": "https://github.com/aryanjsx/know-india#readme",
   "keywords": [
     "india",
     "states",
@@ -31,7 +31,7 @@
     "ut-codes",
     "regions"
   ],
-  "author": "Kuntal Ojha",
+  "author": "Aryan Kumar",
   "license": "MIT",
   "devDependencies": {
     "jest": "^29.7.0"
