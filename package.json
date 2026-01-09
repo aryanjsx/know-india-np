@@ -1,0 +1,50 @@
+{
+  "name": "knowindia",
+  "version": "1.2.0",
+  "description": "A structured dataset and utility package providing Indian states, union territories, capitals, regions, and metadata for web and backend applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuntalojha/knowindia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kuntalojha/knowindia/issues"
+  },
+  "homepage": "https://github.com/kuntalojha/knowindia#readme",
+  "keywords": [
+    "india",
+    "states",
+    "union-territories",
+    "capitals",
+    "know-india",
+    "indian-data",
+    "tourism",
+    "geography",
+    "dataset",
+    "npm-package",
+    "indian-states",
+    "indian-geography",
+    "state-codes",
+    "ut-codes",
+    "regions"
+  ],
+  "author": "Kuntal Ojha",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "India.js",
+    "districts/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ]
+}
