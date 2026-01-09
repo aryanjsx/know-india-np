@@ -1,6 +1,6 @@
 {
   "name": "@aryanjsx/knowindia",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A structured dataset and utility package providing Indian states, union territories, capitals, regions, and metadata for web and backend applications.",
   "main": "index.js",
   "scripts": {
