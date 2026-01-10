@@ -1,12 +1,12 @@
 # Know India 🇮🇳
 
-[![npm version](https://img.shields.io/npm/v/knowindia.svg)](https://www.npmjs.com/package/knowindia)
-[![License](https://img.shields.io/npm/l/knowindia.svg)](https://github.com/kuntalojha/knowindia/blob/main/LICENSE)
-[![Downloads](https://img.shields.io/npm/dt/knowindia.svg)](https://www.npmjs.com/package/knowindia)
-[![NPM Unpacked Size](https://img.shields.io/npm/unpacked-size/knowindia)](https://www.npmjs.com/package/knowindia)
-[![GitHub stars](https://img.shields.io/github/stars/kuntalojha/knowindia)](https://github.com/kuntalojha/knowindia/stargazers)
+[![npm version](https://img.shields.io/npm/v/@aryanjsx/knowindia.svg)](https://www.npmjs.com/package/@aryanjsx/knowindia)
+[![License](https://img.shields.io/npm/l/@aryanjsx/knowindia.svg)](https://github.com/aryanjsx/know-india/blob/main/LICENSE)
+[![Downloads](https://img.shields.io/npm/dt/@aryanjsx/knowindia.svg)](https://www.npmjs.com/package/@aryanjsx/knowindia)
+[![NPM Unpacked Size](https://img.shields.io/npm/unpacked-size/@aryanjsx/knowindia)](https://www.npmjs.com/package/@aryanjsx/knowindia)
+[![GitHub stars](https://img.shields.io/github/stars/aryanjsx/know-india)](https://github.com/aryanjsx/know-india/stargazers)
 
-> A structured dataset and utility package providing Indian states, union territories, capitals, regions, and metadata for web and backend applications.
+> A structured dataset and utility package by **[@aryanjsx](https://github.com/aryanjsx)** providing Indian states, union territories, capitals, regions, and metadata for web and backend applications.
 
 ---
 
@@ -48,10 +48,10 @@ Install the package using your preferred package manager:
 
 | Package Manager | Command |
 |-----------------|---------|
-| **npm** | `npm install knowindia` |
-| **yarn** | `yarn add knowindia` |
-| **pnpm** | `pnpm add knowindia` |
-| **bun** | `bun add knowindia` |
+| **npm** | `npm install @aryanjsx/knowindia` |
+| **yarn** | `yarn add @aryanjsx/knowindia` |
+| **pnpm** | `pnpm add @aryanjsx/knowindia` |
+| **bun** | `bun add @aryanjsx/knowindia` |
 
 ---
 
@@ -60,7 +60,7 @@ Install the package using your preferred package manager:
 ### Node.js (CommonJS)
 
 ```javascript
-const { states, uts, India, INDIA } = require('knowindia');
+const { states, uts, India, INDIA } = require('@aryanjsx/knowindia');
 
 // Get all states data
 const allStates = states();
@@ -82,7 +82,7 @@ console.log(lookup);
 ### ES Modules (import)
 
 ```javascript
-import { states, uts, India, INDIA } from 'knowindia';
+import { states, uts, India, INDIA } from '@aryanjsx/knowindia';
 
 // Get specific state data
 const maharashtra = states().MH;
@@ -96,7 +96,7 @@ console.log(delhi);
 ### React / Next.js
 
 ```jsx
-import { states, uts } from 'knowindia';
+import { states, uts } from '@aryanjsx/knowindia';
 
 function StatesList() {
   const allStates = states();
@@ -121,7 +121,7 @@ export default StatesList;
 
 ```javascript
 const express = require('express');
-const { states, uts, INDIA } = require('knowindia');
+const { states, uts, INDIA } = require('@aryanjsx/knowindia');
 
 const app = express();
 
@@ -269,7 +269,7 @@ Each state object contains comprehensive information:
 
 ## 🌐 Real-World Usage
 
-> **This package is actively used in the [Know India](https://github.com/kuntalojha/knowindia) tourism platform to dynamically render state-based content, power location filters, and provide educational information about Indian geography.**
+> **This package by [@aryanjsx](https://github.com/aryanjsx) is actively used in the [Know India](https://github.com/aryanjsx/know-india) tourism platform to dynamically render state-based content, power location filters, and provide educational information about Indian geography.**
 
 ### Example Use Cases
 
@@ -331,10 +331,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE
 
 ## 👨‍💻 Author
 
-**Kuntal Ojha**
+**Aryan Kumar** ([@aryanjsx](https://aryankr.netlify.app))
 
 - GitHub: [@aryanjsx](https://github.com/aryanjsx)
-- npm: [know-india](https://www.npmjs.com/package/know-india)
+- npm: [@aryanjsx](https://www.npmjs.com/package/@aryanjsx)
+- Twitter: [@aryanjsx](https://twitter.com/aryanjsx)
 
 ---
 
@@ -342,11 +343,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE
 
 If you find this package helpful, please consider:
 
-- ⭐ Starring the [GitHub repository](https://github.com/kuntalojha/knowindia)
+- ⭐ Starring the [GitHub repository](https://github.com/aryanjsx/know-india)
 - 📢 Sharing it with others
 - 🐛 Reporting bugs or suggesting features
 - 🤝 Contributing to the codebase
 
 ---
 
-<p align="center">Made with ❤️ for India</p>
+<p align="center">Made with ❤️ for India by <a href="https://github.com/aryanjsx">@aryanjsx</a></p>
